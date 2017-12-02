@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+      <link type="text/css" href="hangman.css" rel="stylesheet">
+    <script src="hangman.js"></script>
+  </head>
+
+  <body>
+  
+  <body onload="time()"> <!-- vymazanie single page na zaciatku -->
+  
+  <div id="entryPage">
+    <button id="play" onclick="play()">PLAY!</button>
+  </div>
+
+  <div id="singlePage"> 
+        <div>Pick a difficult:</div>
+                    <button id="easy" onclick="easy()">Easy</button>
+                    <button id="hard" onclick="hard()">Hard</button>
+                </div>
+
+  <div id="catPage"> 
+    <div>Choose category:</div>
+      <button id="animals" onclick="animals()">Animals</button>
+      <button id="cities" onclick="cities()">Cities</button>    
+    </div>
+
+
+
+  <div id="gWord"> </div>
+  </body>
+</html>
